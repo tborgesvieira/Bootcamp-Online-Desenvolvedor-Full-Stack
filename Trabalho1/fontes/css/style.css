@@ -1,32 +1,32 @@
-input[type=range]{
-    width: 200px;
-}
-#cubo{
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    left: 250px;
-    margin-left: -50px;
-    position: absolute;       
-}
-.container{
-    display: table;
-	width: 500px;     
-}
-.container-cubo{    
-    width: 500px;
-    align-items: center;    
+body{        
+    margin: 0 auto;
+    text-align: center;
 }
 
- .box{    
-    display: inline-block;    
-    width: 300px; 
-    margin: 10px 20px;
-} 
+.container{
+    display: table;
+    width: 30%;
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: center;
+}
+.container-cubo{        
+    width: 30%;
+    display: flex;
+    margin-left:auto; 
+    margin-right:auto;
+    align-items: center;
+    justify-content: center;
+}
+#cubo{    
+    width: 100px;
+    height: 100px;    
+    background-color: black;                   
+}
 .item{
     display: table-row;
 }
-.divCell {	
+.center {	
 	display: table-cell;
 	padding: 3px 10px;
 }
