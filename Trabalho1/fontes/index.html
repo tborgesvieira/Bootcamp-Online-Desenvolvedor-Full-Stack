@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Prático do Módulo 1</title>
+    <link href="/css/style.css" rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">
+            <div class="divCell">(R) Vermelho: </div>
+            <div class="divCell"><input type="range" id="red" min="0" max="255" value="0"></div>
+            <div class="divCell"><input type="text" size="5" disabled></div>
+        </div>
+        <div class="item">
+            <div class="divCell">(G) Verde: </div>
+            <div class="divCell"><input type="range" id="green" min="0" max="255" value="0"></div>
+            <div class="divCell"><input type="text" size="5" disabled></div>
+        </div>
+        <div class="item">
+            <div class="divCell">(B) Azul: </div>
+            <div class="divCell"><input type="range" id="blue" min="0" max="255" value="0"></div>
+            <div class="divCell"><input type="text" size="5" disabled></div>
+        </div>        
+    </div>
+    <div class="container-cubo">
+        <div id="cubo"></div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

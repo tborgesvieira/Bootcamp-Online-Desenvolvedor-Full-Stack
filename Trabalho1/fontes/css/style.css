@@ -1,0 +1,32 @@
+input[type=range]{
+    width: 200px;
+}
+#cubo{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    left: 250px;
+    margin-left: -50px;
+    position: absolute;       
+}
+.container{
+    display: table;
+	width: 500px;     
+}
+.container-cubo{    
+    width: 500px;
+    align-items: center;    
+}
+
+ .box{    
+    display: inline-block;    
+    width: 300px; 
+    margin: 10px 20px;
+} 
+.item{
+    display: table-row;
+}
+.divCell {	
+	display: table-cell;
+	padding: 3px 10px;
+}
