@@ -11,4 +11,4 @@ Projeto consiste em executar as seguintes tarefas:
 5. Ao clicar em um elemento da lista, seu conteúdo deve ser exibido no formulário, permitindo a edição do mesmo.
 
 ### Exemplo
-![Exemplo 1](img/imagem.png)
+![Exemplo 1](/assets/aula9.png)
