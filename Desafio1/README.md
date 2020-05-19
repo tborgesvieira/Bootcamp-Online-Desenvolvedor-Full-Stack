@@ -1,4 +1,7 @@
-# Bootcamp-Online-Desenvolvedor-Full-Stack - Maio 2020 (IGTI)
+<p align="center">
+  <img src="/assets/bootcamp_fullstack.png">
+</p>
+<h1 align="center">Bootcamp-Online-Desenvolvedor-Full-Stack - Maio 2020 (IGTI)</h1>
 
 ## Trabalho Prático do Módulo 1
 
