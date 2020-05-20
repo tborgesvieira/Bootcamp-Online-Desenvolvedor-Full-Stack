@@ -5,6 +5,7 @@
 
 ## Exercícios
 1. [CRUD com HTML, CSS  e Javascript](Aula9)
+2. [Aula 17 - Exercício](Aula17)
 
 ## Desafios
 1. [Trabalho Prático do Módulo 1](Desafio1)
