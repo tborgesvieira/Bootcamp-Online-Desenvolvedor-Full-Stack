@@ -1,0 +1,38 @@
+body{
+    padding: 10px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    border-radius: 50%;
+}
+
+.country-container{
+    display: flex;
+    width: 100%;    
+}
+
+.country{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.add{
+    border-radius: 50%;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+}
+
+.country-list{
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 50%;
+}
