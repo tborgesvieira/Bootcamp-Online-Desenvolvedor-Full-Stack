@@ -10,18 +10,33 @@
 </head>
 
 <body>
-    <div class="container">
+    <div id="loading">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-green-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="container" class="container preload">
         <div class="row-title">
             <h1>Pesquisa de usuário</h1>
         </div>
         <br />
         <div class="row">
             <input type="text" id="nome" />
-            <a id="enviar" class="waves-effect waves-light btn">Enviar</a>
+            <a id="enviar" class="waves-effect waves-light btn">Buscar</a>
         </div>
         <div class="row">
-            <div class="column" id="usuario"><strong>Nenhum usuário filtrado</strong></div>
-            <div class="column" id="estatisticas"><strong>Nada a ser exibido</strong></div>
+            <div class="column" id="usuario"></div>
+            <div class="column" id="estatisticas"></div>
         </div>
     </div>
     <script src="./js/script.js"></script>

@@ -2,12 +2,24 @@
     padding: 0;
     margin: 0;
 }
-
+#loading{    
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -50px;      
+      z-index: 99999999;    
+}
 .container h1{
     text-align: center;
 }
+.preload{
+    display: none;
+}
 .row{
-    display: flex;
+    display: flex;    
+}
+.row-text{
+    display: flex;    
     align-items: center;
 }
 .column{
@@ -16,5 +28,18 @@
     border: 1px solid gray;
     border-radius: 3px;
     min-height: 200px;
-    font-size: 2em;
+    font-size: 2em;    
+}
+.thumbnail{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+
+.text {
+    list-style-type: none;
+    font-size: 15px;
+    color: grey;
+    vertical-align: middle;        
 }
