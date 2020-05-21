@@ -51,3 +51,7 @@ Os alunos deverão desempenhar as seguintes atividades:
 8. Será necessária uma boa dose de manipulação manual do DOM. Isso pode ser feito tanto com innerHTML + string (recomendo a utilização de template literals) ou com os comandos document.createElement, appendChild etc.
 9. Se quiserem fazer uma interface semelhante à das imagens, utilizem o Materialize (https://materializecss.com).
 10. Não deixem de assistir o vídeo desse desafio, onde demonstro a aplicação em funcionamento e dou mais algumas dicas.
+
+### Resultado Final da implementação
+
+![](/assets/Desafio1.gif)
