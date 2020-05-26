@@ -9,7 +9,7 @@ let caixaUsuario = null;
 let caixaEstatistica = null;
 let numberFormat = Intl.NumberFormat('pt-BR');
 
-function start(){
+const start = () =>{
     carregarLista();    
 
     carregaElementos();
@@ -23,14 +23,14 @@ function start(){
 
 window.addEventListener('load', start);
 
-function carregaElementos(){
+const carregaElementos = () =>{
     btnEnviar = document.querySelector("#enviar");    
     txtNome = document.querySelector("#nome");
     caixaUsuario = document.querySelector("#usuario");
     caixaEstatistica = document.querySelector("#estatisticas");
 }
 
-async function carregarLista(){
+const carregarLista = async ()=>{
     const res = await fetch(url);
 
     const pessoas = await res.json();
@@ -48,15 +48,15 @@ async function carregarLista(){
     ativarTela();
 }
 
-function ativarTela(){
+const ativarTela = () =>{
     setTimeout(()=>{
         document.querySelector("body").removeChild(document.querySelector("#loading"));
         document.querySelector("#container").classList.remove("preload");
     }, 3000);    
 }
 
-function initNome(){
-    function onKeyUpNome(event){
+const initNome = () =>{
+    const onKeyUpNome = (event) =>{
         let hasText = !!event.target.value && event.target.value.trim() !== '';
 
         if(hasText){
@@ -75,12 +75,12 @@ function initNome(){
     limparCaixas();
 }
 
-function limparCaixas(){
+const limparCaixas = () =>{
     caixaUsuario.innerHTML = "<strong>Nenhum usuário filtrado</strong>";
     caixaEstatistica.innerHTML = "<strong>Nada a ser exibido</strong>";
 }
 
-function buscarNome(){
+const buscarNome = () =>{
     var nome = txtNome.value.toLowerCase();
 
     let filtro = listaPessoas.filter(p=>{
@@ -92,7 +92,7 @@ function buscarNome(){
     carregarEstatisticas(filtro);
 }
 
-function carregaUsuarios(filtro){
+const carregaUsuarios = (filtro) =>{
     
     var div = "";
 
@@ -115,7 +115,7 @@ function carregaUsuarios(filtro){
     caixaUsuario.innerHTML = div;
 }
 
-function carregarEstatisticas(filtro){
+const carregarEstatisticas = (filtro) =>{
     var div = "<strong>Estatísticas</strong>";
 
     var masculino = filtro.filter(p=>{return p.sexo === 'M'}).length;
