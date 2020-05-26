@@ -54,4 +54,4 @@ Os alunos deverão desempenhar as seguintes atividades:
 
 ### Resultado Final da implementação
 
-![](/assets/Desafio1.gif)
+<div style="text-align:center"><img src="/assets/Desafio_1.gif" /></div>
