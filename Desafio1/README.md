@@ -37,6 +37,8 @@ Os alunos deverão desempenhar as seguintes atividades:
 
 ![Tela antes da busca](/assets/d1.png)
 
+<hr />
+
 **Tela inicial da aplicação após a busca (sugestão):**
 ![Tela após a busca](/assets/d2.png)
 
