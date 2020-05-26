@@ -35,9 +35,9 @@ Os alunos deverão desempenhar as seguintes atividades:
 
 **Tela inicial da aplicação (sugestão):**
 
-![](/assets/d1.png)
+![Tela antes da busca](/assets/d1.png)
 
-![](/assets/d2.png)
+![Tela após a busca](/assets/d2.png)
 
 ### Dicas
 
