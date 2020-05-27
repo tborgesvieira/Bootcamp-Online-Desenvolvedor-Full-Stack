@@ -17,3 +17,7 @@
 10. Implementar addToFavorites(id);
 11. Implementar removeFromFavorites(id);
 12. Implementar formatação de valores numéricos.
+
+### Resultado Final da implementação
+
+<div style="text-align:center"><img src="/assets/aula17.gif" /></div>
