@@ -5,3 +5,4 @@
 
 ## Módulos
 1. [Fundamentos - Desenvolvedor Full Stack](Modulo1)
+2. [Desenvolvimento de APIs](Modulo2)
