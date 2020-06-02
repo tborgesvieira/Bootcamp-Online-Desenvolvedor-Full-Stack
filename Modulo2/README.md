@@ -9,11 +9,7 @@
 1. [Aula 3 - My Bank Api](Aula3)
 
 ## Exercícios
-1. [Aula 9 - CRUD com HTML, CSS  e Javascript](Aula9)
-2. [Aula 17 - Exercício](Aula17)
+1. [Aula 3 - My Bank API](Aula3)
 
 ## Trabalho
-1. [Trabalho Prático do Módulo 1](Trabalho1)
-
-## Desafio
-1. [Desafio do Módulo 1](Desafio1)
+1. [Trabalho Prático do Módulo 2](Trabalho2)
