@@ -10,3 +10,6 @@
 
 ## Trabalho
 1. [Trabalho Prático do Módulo 2](Trabalho2)
+
+## Desafio
+1. [Desafio do Módulo 2](Desafio2)
