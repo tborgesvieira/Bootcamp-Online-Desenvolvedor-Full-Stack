@@ -1,5 +1,5 @@
 import express from "express";
-import { ready, write } from "../file/manipulate.js";
+import { ready } from "../file/manipulate.js";
 
 const router = express.Router();
 
