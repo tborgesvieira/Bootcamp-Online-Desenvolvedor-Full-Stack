@@ -16,7 +16,7 @@ router.post("/", async (req, res) => {
         );
         
         const soma  = grades.reduce((acc, cur)=>acc + cur.value, 0);
-        console.log(soma);
+        
         const media = soma / grades.length;
         
         res.send(`Média encontrada: ${media}`);

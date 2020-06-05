@@ -51,6 +51,7 @@ router.put("/", async (req, res) => {
     }
 });
 
+//3
 router.delete("/:id", async (req, res) => {
     try{
         const json = JSON.parse(await ready());
@@ -88,7 +89,7 @@ router.get("/:id", async (req, res) => {
     }
 });
 
-// 5
+//Implementação extra, para ver se estava buscando todos
 router.get("/", async (_, res) => {
     try {
         const data = await ready();
