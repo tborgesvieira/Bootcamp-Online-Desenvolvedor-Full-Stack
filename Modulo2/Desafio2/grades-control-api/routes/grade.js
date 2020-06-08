@@ -44,6 +44,8 @@ router.put("/", async (req, res) => {
 
         json.grades[index] = grade;
 
+        write(json);
+
         res.send(grade);
 
     } catch (err) {
