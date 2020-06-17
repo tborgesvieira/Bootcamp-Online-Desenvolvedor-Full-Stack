@@ -7,3 +7,4 @@
 
 ## Aulas
 1. [Aula 2 - Olá mundo](Aula2)
+1. [Aula 3 - Desafio Guiado 1](Aula3)
