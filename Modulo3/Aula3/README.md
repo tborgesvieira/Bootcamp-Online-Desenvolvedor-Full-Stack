@@ -12,4 +12,4 @@ Essa aula tem como base a criação de um app simples com as seguintes especific
 - [JavaScript puro não-performático.](1-javascript-nao-performatico)
 - [JavaScript puro performático.](2-javascript-performatico)
 - [React com Class Components.](3-react-classes)
-- {React com Functional Components + Hooks.](4-react-hooks)
+- [React com Functional Components + Hooks.](4-react-hooks)
