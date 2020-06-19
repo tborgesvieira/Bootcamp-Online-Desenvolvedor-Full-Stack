@@ -6,5 +6,9 @@
 # FrontEnd com React
 
 ## Aulas
-1. [Aula 2 - Olá mundo](Aula2)
-1. [Aula 3 - Desafio Guiado 1](Aula3)
+1. Configuração do ambiente
+2. [Aula 2 - Olá mundo](Aula2)
+3. [Aula 3 - Desafio Guiado 1](Aula3)
+4. [Aula 4 - Classes com JavaScript](Aula4)
+5. [Aula 5 - Class Components – Parte 1](Aula5)
+5. [Aula 6 - Class Components – Parte 2](Aula6)
