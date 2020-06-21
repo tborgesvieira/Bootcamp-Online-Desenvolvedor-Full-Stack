@@ -11,4 +11,5 @@
 3. [Aula 3 - Desafio Guiado 1](Aula3)
 4. [Aula 4 - Classes com JavaScript](Aula4)
 5. [Aula 5 - Class Components – Parte 1](Aula5)
-5. [Aula 6 - Class Components – Parte 2](Aula6)
+6. [Aula 6 - Class Components – Parte 2](Aula6)
+7. [Aula 7 - Ciclo de vida de Class Components](Aula7)
