@@ -1,0 +1,38 @@
+.border{
+    border: 1px solid lightslategray;   
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.country{
+   min-width: 120px;
+   max-width: 120px;
+   min-height: 120px;
+   margin: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.flag{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;   
+}
+
+.countryName{
+    text-align: center;
+}
