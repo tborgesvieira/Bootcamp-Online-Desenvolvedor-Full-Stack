@@ -13,3 +13,7 @@
 5. [Aula 5 - Class Components – Parte 1](Aula5)
 6. [Aula 6 - Class Components – Parte 2](Aula6)
 7. [Aula 7 - Ciclo de vida de Class Components](Aula7)
+8. [Aula 8 - Desafio 2](Aula8)
+
+## Trabalho
+- [Trabalho Prático Módulo 3](Trabalho3)
