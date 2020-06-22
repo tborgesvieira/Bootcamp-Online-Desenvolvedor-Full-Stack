@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { formatMoney } from '../../helpers/formatters';
+import ReadOnly from '../readonly/ReadOnly';
 
 export default class SalarioLiquido extends Component {
     render() {
@@ -8,17 +9,7 @@ export default class SalarioLiquido extends Component {
             <div className="col s12">
                 <div className="row">
                     <div className="col s3">
-                        <label>Salário Líquido</label>
-                        <input
-                            type="text"
-                            value={formatMoney(salarioLiquido)}
-                            style={
-                                {
-                                    fontWeight: 'bold',
-                                    color: colorLiquido
-                                }
-                            }
-                            readOnly />
+                        <ReadOnly value={salarioLiquido} color={colorLiquido}>Salário Líquido</ReadOnly>                        
                     </div>
                 </div>
             </div>

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import { formatMoney } from '../../helpers/formatters';
 
-import css from './descontos.module.css';
+import ReadOnly from '../readonly/ReadOnly';
 
 export default class Descontos extends Component {
     constructor() {
@@ -146,36 +146,17 @@ export default class Descontos extends Component {
         return (
             <div className="col s12">
                 <div className="row">
-                    <div className="col s3">
-
-                        <label>Base INSS</label>
-                        <input
-                            className={css.inputBold}
-                            type="text"
-                            value={formatMoney(salarioBruto)} readOnly />
+                    <div className="col s3">                        
+                        <ReadOnly value={salarioBruto}>Base INSS</ReadOnly>
                     </div>
                     <div className="col s3">
-                        <label>Desconto INSS</label>
-                        <input
-                            className={css.inputBold}
-                            style={{ color: colorInss }}
-                            type="text"
-                            value={descontoInssText} readOnly />
+                        <ReadOnly value={descontoInssText} color={colorInss}>Desconto INSS</ReadOnly>
                     </div>
                     <div className="col s3">
-                        <label >Base IRRF</label>
-                        <input
-                            className={css.inputBold}
-                            type="text"
-                            value={formatMoney(baseIrrf)} readOnly />
+                        <ReadOnly value={baseIrrf}>Base IRRF</ReadOnly>                        
                     </div>
                     <div className="col s3">
-                        <label >Desconto IRRF</label>
-                        <input
-                            className={css.inputBold}
-                            style={{ color: colorIrrf }}
-                            type="text"
-                            value={formatMoney(descontoIrrf)} readOnly />
+                        <ReadOnly value={descontoIrrf} color={colorIrrf}>Desconto IRRF</ReadOnly>                       
                     </div>
                 </div>
             </div>
