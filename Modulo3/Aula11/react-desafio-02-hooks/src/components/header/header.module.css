@@ -1,0 +1,24 @@
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.population{
+    min-width: 180px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.countries{
+    min-width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.inputForm{
+    width: 200px !important;
+}
