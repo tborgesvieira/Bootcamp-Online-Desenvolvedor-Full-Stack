@@ -15,6 +15,9 @@
 7. [Aula 7 - Ciclo de vida de Class Components](Aula7)
 8. [Aula 8 - Desafio 2](Aula8)
 9. [Aula 9 - Functional Components](Aula9)
+10. [Aula 10 - Desafio Guiado 3](Aula10)
+11. [Aula 11 - React Hooks](Aula11)
+12. [Aula 12 - Desafio Guiado 4](Aula12)
 
 ## Trabalho
 - [Trabalho Prático Módulo 3](Trabalho3)
