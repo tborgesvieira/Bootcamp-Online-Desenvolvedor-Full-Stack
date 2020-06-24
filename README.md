@@ -6,3 +6,4 @@
 ## Módulos
 1. [Fundamentos - Desenvolvedor Full Stack](Modulo1)
 2. [Desenvolvimento de APIs](Modulo2)
+3. [FrontEnd com React](Modulo3)
