@@ -7,5 +7,6 @@
 
 ## Aulas
 - [Aula 2.2 - Integração do MongoDB Atlas](Aula2_2)
+- [Aula 2.3 - Mongoose](Aula2_3)
 ## Trabalho
 - [Trabalho Prático Módulo 3](Trabalho3)
