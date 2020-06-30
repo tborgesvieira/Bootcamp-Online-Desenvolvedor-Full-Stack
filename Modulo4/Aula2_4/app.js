@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 
 import {studentRouter} from './routes/studentRouter.js';
 
-mongoose.connect("mongodb+srv://thiago:Tbv@2356@cluster0-dxvwu.mongodb.net/grades?retryWrites=true&w=majority",
+mongoose.connect("mongodb+srv://<user>:<pass>@cluster0-dxvwu.mongodb.net/grades?retryWrites=true&w=majority",
 {
     useNewUrlParser: true, 
     useUnifiedTopology: true
