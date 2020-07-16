@@ -1,0 +1,26 @@
+{
+  "name": "bootcamp-full-stack-desafio-final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "mongodb": "3.5.9",
+    "mongoose": "5.9.19"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.4"
+  },
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "client/"
+    ]
+  }  
+}

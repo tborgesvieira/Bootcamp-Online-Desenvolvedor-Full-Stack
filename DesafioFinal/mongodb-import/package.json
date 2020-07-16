@@ -1,0 +1,13 @@
+{
+  "name": "mongodb-import",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "db": "node populateMongoDb.js"
+  },
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "mongoose": "5.9.19"
+  }
+}
