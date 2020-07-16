@@ -19,7 +19,7 @@ export default function Periods(props) {
     }
 
     return (
-        <div className="col s4">
+        <div className="col">
                     <select className="browser-default" value={defaultPeriod} onChange={onChangePeriod}>
                         {periods.length > 0 && periods.map(item => {
                             return (<option key={item} value={item}>{getDataFormatada(item)}</option>)
