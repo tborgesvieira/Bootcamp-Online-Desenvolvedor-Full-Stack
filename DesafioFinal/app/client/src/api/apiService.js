@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3001/api/transaction';
+const API_URL = '/api/transaction';
 
 async function getAll(period){
     const res = await axios.get(API_URL+'?period='+period);
