@@ -12,7 +12,7 @@ export default function Periods(props) {
         var mes = (+item.split('-')[1])-1;
 
         const mesNome = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho",
-                            "Agosto", "Setembro", "Outubro", "Novembro", "Dezemrbo"];
+                            "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
         return `${mesNome[mes]} / ${item.split('-')[0]}`;
     }
