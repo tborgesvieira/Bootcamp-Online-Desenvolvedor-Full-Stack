@@ -1,13 +1,20 @@
 import React from 'react'
 
-export default function Detalhes(props) {
-    const { yearMonths } = props;
+export default function Detalhes({yearMonths, onDelete, onEdit}) {
+    
+    const handleEdit = (item) => {
+        onEdit(item);
+    }
+
+    const handleDelete = (item) =>{
+        onDelete(item);
+    }
 
     return (
         <div className="container">
             {yearMonths.map((item) => {
                 return (
-                    <div key={item._id} className="row" style={{ backgroundColor: item.type === '-' ?'rgb(235, 161, 168)':'rgb(169, 240, 219)', 
+                    <div key={"div_"+item._id} className="row" style={{ backgroundColor: item.type === '-' ?'rgb(235, 161, 168)':'rgb(169, 240, 219)', 
                                             border: '1px solid gray', 
                                             borderRadius: '5px', 
                                             display: 'flex' }}>
@@ -26,10 +33,10 @@ export default function Detalhes(props) {
                             R$ {item.value.toLocaleString('pt-br', { minimumFractionDigits: 2 })}
                         </div>
                         <div className="col s1 right-align valign-wrapper" style={{display:'flex', textAlign:'right'}}>
-                            <a className="waves-effect waves-teal btn-flat">
+                            <a className="waves-effect waves-teal btn-flat" onClick={() => handleEdit(item)} alt={item.description}>
                                 <i className="tiny material-icons">edit</i>
                             </a>
-                            <a className="waves-effect waves-teal btn-flat">
+                            <a className="waves-effect waves-teal btn-flat" onClick={() => handleDelete(item)} alt={item.description}>
                                 <i className="tiny material-icons">delete</i>
                             </a>
                         </div>

@@ -9,11 +9,11 @@ async function getAll(period){
         const { description } = p;
         return {
             ...p,
-            descriptionLower: description.toLowerCase()
+            descriptionLower: description.toLowerCase(),
         }
-    });
+    });    
 
-    return data;
+    return data.sort((a, b) => a.day - b.day);
 }
 
 async function getAllPeriods(){
@@ -22,4 +22,22 @@ async function getAllPeriods(){
     return res.data;
 }
 
-export { getAll, getAllPeriods }
+async function insert(lancamento){
+    const res = await axios.post(API_URL, lancamento);
+
+    return res.data;
+}
+
+async function remove(id){
+    const res = await axios.delete(API_URL+"/"+id);
+
+    return res.data;
+}
+
+async function update(lancamento){
+    const res = await axios.put(API_URL, lancamento);
+
+    return res.data;
+}
+
+export { getAll, getAllPeriods, insert, remove, update }

@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 export default function Periods(props) {
 
     const {periods, defaultPeriod} = props;
-
-    //const [periods, setPeriods] = useState([]);    
+    
     const onChangePeriod = (event) =>{        
         props.onChangePeriod(event.target.value);
     }    
