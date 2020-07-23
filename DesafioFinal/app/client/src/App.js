@@ -13,9 +13,9 @@ export default function App() {
 
   const dt = new Date();
 
-  const yearMonteCurrent = `${dt.getFullYear()}-${("0" + (dt.getMonth() + 1)).slice(-2)}`;
+  const yearMonthCurrent = `${dt.getFullYear()}-${("0" + (dt.getMonth() + 1)).slice(-2)}`;
 
-  const [period, setPeriod] = useState(yearMonteCurrent);
+  const [period, setPeriod] = useState(yearMonthCurrent);
   const [yearMonthSelected, setYearMonthSelected] = useState([]);
   const [yearMonthFiltred, setYearMonthFiltred] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
